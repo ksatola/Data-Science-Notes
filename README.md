@@ -15,7 +15,7 @@ This material is `work-in-progress`
     
 - [Accuracy paradox](https://en.wikipedia.org/wiki/Accuracy_paradox)
     
-## Tutorials, Trainings, Communities 
+## Tutorials, Trainings, Communities
 
 - [chrisalbon.com](https://chrisalbon.com/) - Technical notes on using data science & artificial intelligence to fight for something that matters
 - [www.analyticsvidhya.com](https://www.analyticsvidhya.com/) - Learn everything about analytics
