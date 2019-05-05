@@ -3,6 +3,12 @@ Various resources on advanced analytics and beyond
 
 This material is `work-in-progress`
 
+## Data and Big Data
+
+- [Data Lake Maturity Model](Data_Lake.ipynb)
+
+
+
 ## Python
 
 - [PyFormat](https://pyformat.info/) - Using % and .format() for great good
