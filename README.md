@@ -20,6 +20,10 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
     - Resampling [EDA](EDA_Template.ipynb)
     
 - [Accuracy paradox](https://en.wikipedia.org/wiki/Accuracy_paradox)
+
+## Machile Learning
+
+- (done) [K-Nearest Neighbors](400_K_Nearest_Neighbors.ipynb)
     
 ## Tutorials, Trainings, Communities 
 
