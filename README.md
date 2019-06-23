@@ -3,6 +3,14 @@ Various resources on advanced analytics and beyond
 
 This material is `work-in-progress`, only parts annotated with (done) can be consider complete (but may be extended in the future).
 
+---
+## Topics Alphabetically
+
+- [The Curse of Dimensionality]()
+
+
+--- 
+
 ## Data and Big Data
 
 - (done) [Data Lake Maturity Model](Data_Lake.ipynb) - the first thing needed for analytics is data. It should be complete, trustful, well governed and easily used by anyone needed to make data-driven decisions.
