@@ -38,7 +38,7 @@ plt.title("Very Different Joint Distributions")
 # plt.show()
 
 
-plt.savefig('im/working_scatter.png')
+#plt.savefig('im/working_scatter.png')
 plt.gca().clear()
 
 
@@ -145,10 +145,10 @@ assert try_parse_row(["MSFT", "2018-12-14", "106.03"]) == stock
 from dateutil.parser import parse
 import csv
 
-with open("stocks.csv", "r") as f:
+'''with open("stocks.csv", "r") as f:
     reader = csv.DictReader(f)
     rows = [[row['Symbol'], row['Date'], row['Close']]
-            for row in reader]
+            for row in reader]'''
 
 # skip header
 maybe_data = [try_parse_row(row) for row in rows]
@@ -498,7 +498,7 @@ def main():
     plot_histogram(normal, 10, "Normal Histogram")
 
 
-    plt.savefig('im/working_histogram_normal.png')
+    #plt.savefig('im/working_histogram_normal.png')
     plt.gca().clear()
 
     from scratch.statistics import correlation
@@ -555,7 +555,7 @@ def main():
 
 
 
-    plt.savefig('im/working_scatterplot_matrix.png')
+    #plt.savefig('im/working_scatterplot_matrix.png')
     plt.gca().clear()
     plt.close()
     plt.clf()
