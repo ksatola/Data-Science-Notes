@@ -1,0 +1,203 @@
+Country,fertility,life,population,child_mortality,gdp,region
+Afghanistan,5.659,59.612,31411743.0,105.0,1637.0,South Asia
+Albania,1.741,76.78,3204284.0,16.6,9374.0,Europe & Central Asia
+Algeria,2.817,70.615,35468208.0,27.4,12494.0,Middle East & North Africa
+Angola,6.218,50.68899999999999,19081912.0,182.5,7047.0,Sub-Saharan Africa
+Antigua and Barbuda,2.13,75.437,88710.0,9.9,20567.0,America
+Argentina,2.215,75.77199999999998,40412376.0,14.6,15765.0,America
+Armenia,1.55,74.291,3092072.0,18.0,6508.0,Europe & Central Asia
+Aruba,1.7009999999999998,75.059,107488.0,17.84,33288.0,America
+Australia,1.886,82.09100000000002,22268384.0,4.8,41330.0,East Asia & Pacific
+Austria,1.4380000000000002,80.595,8393644.0,4.4,42861.0,Europe & Central Asia
+Azerbaijan,1.97,70.518,9187783.0,39.0,15950.0,Europe & Central Asia
+Bahamas,1.901,74.757,342877.0,13.9,22915.0,America
+Bahrain,2.142,76.203,1261835.0,8.3,40553.0,Middle East & North Africa
+Bangladesh,2.277,69.449,148692131.0,49.6,2459.0,South Asia
+Barbados,1.839,74.875,273331.0,14.7,15297.0,America
+Belarus,1.46,69.613,9595421.0,6.1,15703.0,Europe & Central Asia
+Belgium,1.842,80.007,10712066.0,4.5,40764.0,Europe & Central Asia
+Belize,2.801,73.24,311627.0,19.0,8209.0,America
+Benin,5.095,58.797,8849892.0,111.6,1637.0,Sub-Saharan Africa
+Bhutan,2.375,67.015,725940.0,42.3,6516.0,South Asia
+Bolivia,3.357,66.362,9929849.0,47.0,5279.0,America
+Bosnia and Herzegovina,1.242,75.898,3760149.0,7.5,9145.0,Europe & Central Asia
+Botswana,2.761,46.588,2006945.0,60.3,13642.0,Sub-Saharan Africa
+Brazil,1.838,73.12100000000002,194946470.0,16.7,14660.0,America
+Brunei,2.051,77.956,398920.0,9.3,70636.0,East Asia & Pacific
+Bulgaria,1.485,73.243,7494332.0,13.0,14886.0,Europe & Central Asia
+Burkina Faso,5.869,55.081,16468714.0,113.5,1431.0,Sub-Saharan Africa
+Burundi,6.3039999999999985,52.63800000000001,8382849.0,98.8,725.0,Sub-Saharan Africa
+Cambodia,2.966,70.811,14138255.0,43.1,2513.0,East Asia & Pacific
+Cameroon,5.017,53.718,19598889.0,106.0,2571.0,Sub-Saharan Africa
+Canada,1.6269,80.986,34016593.0,5.6,40773.0,America
+Cape Verde,2.427,74.094,495999.0,27.9,6005.0,Sub-Saharan Africa
+Central African Rep.,4.626,48.139,4401051.0,,,Sub-Saharan Africa
+Chad,6.596,49.794,11227208.0,160.1,1953.0,Sub-Saharan Africa
+Channel Islands,1.436,79.902,153352.0,9.57,,Europe & Central Asia
+Chile,1.858,79.168,17113688.0,8.8,19204.0,America
+China,1.65,74.868,1341335152.0,15.7,9430.0,East Asia & Pacific
+Colombia,2.376,73.42399999999998,46294841.0,18.5,10777.0,America
+Comoros,4.919,60.223,734750.0,86.0,1426.0,Sub-Saharan Africa
+"Congo, Dem. Rep.",6.251,49.01,65965795.0,116.1,632.0,Sub-Saharan Africa
+"Congo, Rep.",5.072,57.229,4042899.0,60.6,5533.0,Sub-Saharan Africa
+Costa Rica,1.847,79.28,4658887.0,10.2,12322.0,America
+Cote d'Ivoire,4.91,49.642,19737800.0,110.1,2892.0,Sub-Saharan Africa
+Croatia,1.465,76.54,4403330.0,5.4,19989.0,Europe & Central Asia
+Cuba,1.467,78.736,11257979.0,6.6,18477.0,America
+Cyprus,1.4780000000000002,79.348,1103647.0,3.9,33747.0,Europe & Central Asia
+Czech Rep.,1.501,77.267,10492960.0,,,Europe & Central Asia
+Denmark,1.8751,78.969,5550142.0,4.0,42997.0,Europe & Central Asia
+Djibouti,3.604,60.307,888716.0,76.1,2665.0,Middle East & North Africa
+Dominican Rep.,2.584,72.734,9927320.0,,,America
+Ecuador,2.655,75.64699999999998,14464739.0,25.2,9311.0,America
+Egypt,2.883,70.47800000000002,81121077.0,29.0,10615.0,Middle East & North Africa
+El Salvador,2.263,71.88,6192993.0,20.0,7237.0,America
+Equatorial Guinea,5.14,51.483,700401.0,110.9,34431.0,Sub-Saharan Africa
+Eritrea,4.968,61.275,5253676.0,55.6,1083.0,Sub-Saharan Africa
+Estonia,1.625,74.094,1341140.0,4.5,21710.0,Europe & Central Asia
+Ethiopia,4.902,61.486,82949541.0,75.7,1081.0,Sub-Saharan Africa
+Fiji,2.67,69.258,860623.0,23.9,7098.0,East Asia & Pacific
+Finland,1.87,79.987,5364546.0,3.0,39425.0,Europe & Central Asia
+France,1.981,81.35,62787427.0,4.3,36745.0,Europe & Central Asia
+French Guiana,3.159,76.426,231151.0,11.41,,America
+French Polynesia,2.11,75.618,270764.0,8.64,,East Asia & Pacific
+Gabon,4.214,62.333,1505463.0,63.0,15982.0,Sub-Saharan Africa
+Gambia,5.796,58.109,1728394.0,81.4,1667.0,Sub-Saharan Africa
+Georgia,1.82,73.883,4352244.0,16.6,5938.0,Europe & Central Asia
+Germany,1.386,80.2397218872,82302465.0,4.2,40632.0,Europe & Central Asia
+Ghana,4.052,60.62600000000001,24391823.0,74.7,3091.0,Sub-Saharan Africa
+Greece,1.499,80.23,11359346.0,4.7,29190.0,Europe & Central Asia
+Greenland,2.195,70.775,57296.0,,24966.0,Europe & Central Asia
+Grenada,2.24,72.375,104487.0,13.2,11178.0,America
+Guadeloupe,2.123,80.141,460666.0,7.07,,America
+Guam,2.472,78.046,179896.0,12.15,,East Asia & Pacific
+Guatemala,3.974,71.1,14388929.0,34.5,6849.0,America
+Guinea,5.174,55.317,9981590.0,111.9,1185.0,Sub-Saharan Africa
+Guinea-Bissau,5.115,53.578,1515224.0,115.9,1368.0,Sub-Saharan Africa
+Guyana,2.682,65.775,754493.0,41.5,5542.0,America
+Haiti,3.35,45.0,9993247.0,208.8,1518.0,America
+Honduras,3.154,72.854,7600524.0,24.4,4270.0,America
+"Hong Kong, China",1.075,82.84,7053189.0,2.85,48108.0,East Asia & Pacific
+Hungary,1.364,74.227,9983645.0,6.6,22062.0,Europe & Central Asia
+Iceland,2.119,81.707,320136.0,2.4,38809.0,Europe & Central Asia
+India,2.563,65.65,1224614327.0,59.9,4547.0,South Asia
+Indonesia,2.434,70.185,239870937.0,33.1,8498.0,East Asia & Pacific
+Iran,1.904,73.094,73973630.0,19.2,16980.0,Middle East & North Africa
+Iraq,4.211,68.753,31671591.0,36.6,12330.0,Middle East & North Africa
+Ireland,2.003,80.15100000000002,4469900.0,4.2,43860.0,Europe & Central Asia
+Israel,2.92,81.295,7418400.0,4.6,29509.0,Middle East & North Africa
+Italy,1.435,81.92299999999999,60550848.0,4.0,35753.0,Europe & Central Asia
+Jamaica,2.334,72.89699999999998,2741052.0,18.1,8370.0,America
+Japan,1.374,83.09200000000001,126535920.0,3.2,34404.0,East Asia & Pacific
+Jordan,3.458,73.39,6187227.0,20.8,11256.0,Middle East & North Africa
+Kazakhstan,2.5380000000000003,66.108,16026367.0,21.6,19601.0,Europe & Central Asia
+Kenya,4.6160000000000005,59.58,40512682.0,63.6,2503.0,Sub-Saharan Africa
+Kiribati,3.048,67.945,99546.0,62.9,1729.0,East Asia & Pacific
+"Korea, Dem. Rep.",2.003,69.118,24346229.0,,,East Asia & Pacific
+"Korea, Rep.",1.266,80.77199999999998,48183584.0,,,East Asia & Pacific
+Kuwait,2.673,73.992,2736732.0,10.8,75365.0,Middle East & North Africa
+Kyrgyzstan,2.974,67.054,5334223.0,,,Europe & Central Asia
+Laos,3.29,66.957,6200894.0,,,East Asia & Pacific
+Latvia,1.5530000000000002,71.836,2252060.0,9.4,18148.0,Europe & Central Asia
+Lebanon,1.513,79.11,4227597.0,10.1,16263.0,Middle East & North Africa
+Lesotho,3.207,47.584,2171318.0,101.5,2235.0,Sub-Saharan Africa
+Liberia,5.024,59.459,3994122.0,89.3,689.0,Sub-Saharan Africa
+Libya,2.525,74.732,6355112.0,16.6,30261.0,Middle East & North Africa
+Lithuania,1.4680000000000002,71.631,3323611.0,6.8,20758.0,Europe & Central Asia
+Luxembourg,1.64,80.00399999999998,507448.0,2.4,91147.0,Europe & Central Asia
+"Macao, China",1.003,79.75399999999998,543656.0,6.14,98722.0,East Asia & Pacific
+"Macedonia, FYR",1.452,74.73100000000002,2060563.0,9.9,11179.0,Europe & Central Asia
+Madagascar,4.654,63.38,20713819.0,60.3,1390.0,Sub-Saharan Africa
+Malawi,5.636,53.536,14900841.0,92.0,737.0,Sub-Saharan Africa
+Malaysia,2.002,74.479,28401017.0,8.3,20398.0,East Asia & Pacific
+Maldives,2.339,76.779,315885.0,13.0,11674.0,South Asia
+Mali,6.841,53.788,15369809.0,136.6,1664.0,Sub-Saharan Africa
+Malta,1.3730000000000002,79.225,416515.0,6.4,27906.0,Europe & Central Asia
+Martinique,1.87,80.71,405814.0,8.17,,America
+Mauritania,4.837,61.06399999999999,3459773.0,97.8,3299.0,Sub-Saharan Africa
+Mauritius,1.521,73.142,1299172.0,15.2,15599.0,Sub-Saharan Africa
+Mayotte,4.082,78.51899999999998,204114.0,5.56,,Sub-Saharan Africa
+Mexico,2.281,76.836,113423047.0,16.8,15460.0,America
+"Micronesia, Fed. Sts.",3.46,68.654,111064.0,40.7,3337.0,East Asia & Pacific
+Moldova,1.477,68.541,3572885.0,17.1,3925.0,Europe & Central Asia
+Mongolia,2.437,66.825,2756001.0,30.0,7708.0,East Asia & Pacific
+Montenegro,1.6980000000000002,74.48899999999998,631490.0,6.8,13656.0,Europe & Central Asia
+Morocco,2.583,70.24600000000001,31951412.0,33.1,6466.0,Middle East & North Africa
+Mozambique,5.409,49.20399999999999,23390765.0,103.8,930.0,Sub-Saharan Africa
+Myanmar,2.003,64.658,47963012.0,59.3,3077.0,East Asia & Pacific
+Namibia,3.229,62.594,2283289.0,55.4,8433.0,Sub-Saharan Africa
+Nepal,2.619,67.113,29959364.0,45.4,1999.0,South Asia
+Netherlands,1.796,80.62100000000002,16612988.0,4.4,45843.0,Europe & Central Asia
+Netherlands Antilles,1.94,76.518,200689.0,,,America
+New Caledonia,2.193,75.67399999999998,250870.0,16.32,,East Asia & Pacific
+New Zealand,2.115,80.67,4368136.0,6.2,31824.0,East Asia & Pacific
+Nicaragua,2.631,73.84,5788163.0,26.1,3966.0,America
+Niger,7.584,56.956,15511953.0,123.6,841.0,Sub-Saharan Africa
+Nigeria,6.022,51.297,158423182.0,130.3,5114.0,Sub-Saharan Africa
+Norway,1.95,81.064,4883111.0,3.2,62946.0,Europe & Central Asia
+Oman,2.901,75.721,2782435.0,11.7,49188.0,Middle East & North Africa
+Pakistan,3.43,66.11,173593383.0,91.8,4220.0,South Asia
+Panama,2.549,76.916,3516820.0,19.8,14921.0,America
+Papua New Guinea,3.954,61.994,6858266.0,66.1,2163.0,East Asia & Pacific
+Paraguay,2.968,72.016,6454548.0,24.1,7008.0,America
+Peru,2.511,73.91199999999998,29076512.0,21.0,9915.0,America
+Philippines,3.151,68.207,93260798.0,31.9,5614.0,East Asia & Pacific
+Poland,1.372,75.902,38276660.0,5.8,21328.0,Europe & Central Asia
+Portugal,1.3330000000000002,79.291,10675572.0,3.9,27393.0,Europe & Central Asia
+Puerto Rico,1.664,78.32600000000002,3749009.0,8.18,34454.0,America
+Qatar,2.085,77.959,1758793.0,9.0,127984.0,Middle East & North Africa
+Reunion,2.327,78.87899999999998,846068.0,5.56,,Sub-Saharan Africa
+Romania,1.372,73.476,21486371.0,13.9,16888.0,Europe & Central Asia
+Russia,1.569,67.622,142958164.0,12.0,21664.0,Europe & Central Asia
+Rwanda,4.841,62.276,10624005.0,64.2,1262.0,Sub-Saharan Africa
+Saint Lucia,1.982,74.425,174267.0,,,America
+Saint Vincent and the Grenadines,2.07,72.17399999999998,109333.0,,,America
+Samoa,4.338,72.283,183081.0,18.7,5405.0,East Asia & Pacific
+Sao Tome and Principe,4.287,65.93,165397.0,56.4,2743.0,Sub-Saharan Africa
+Saudi Arabia,2.829,74.832,27448086.0,17.0,45598.0,Middle East & North Africa
+Senegal,5.05,62.934,12433728.0,64.8,2182.0,Sub-Saharan Africa
+Serbia,1.38,73.676,9856222.0,7.6,12301.0,Europe & Central Asia
+Seychelles,2.257,72.72399999999998,86518.0,14.2,20364.0,Sub-Saharan Africa
+Sierra Leone,4.9430000000000005,44.846,5867536.0,160.2,1347.0,Sub-Saharan Africa
+Singapore,1.261,81.788,5086418.0,2.8,72056.0,East Asia & Pacific
+Slovak Republic,1.35,75.02,5462119.0,8.1,24438.0,Europe & Central Asia
+Slovenia,1.4780000000000002,79.125,2029680.0,3.3,28377.0,Europe & Central Asia
+Solomon Islands,4.2360000000000015,67.027,538148.0,32.1,1787.0,East Asia & Pacific
+Somalia,6.869,53.0,9330872.0,160.2,614.0,Sub-Saharan Africa
+South Africa,2.467,54.547,50132817.0,54.4,12087.0,Sub-Saharan Africa
+South Sudan,5.194,53.488,9415421.0,110.9,3838.0,Sub-Saharan Africa
+Spain,1.457,81.656,46076989.0,4.6,32994.0,Europe & Central Asia
+Sri Lanka,2.343,73.79,20859949.0,10.6,7572.0,South Asia
+Sudan,4.637,61.49,34136520.0,80.2,3282.0,Sub-Saharan Africa
+Suriname,2.345,70.309,524636.0,24.9,14325.0,America
+Swaziland,3.559,48.398,1186056.0,90.9,5862.0,Sub-Saharan Africa
+Sweden,1.987,81.426,9379687.0,3.1,42898.0,Europe & Central Asia
+Switzerland,1.5,82.19200000000002,7664318.0,4.5,54183.0,Europe & Central Asia
+Syria,3.0780000000000003,74.693,20410606.0,15.3,6603.0,Middle East & North Africa
+Taiwan,0.895,79.15,23025000.0,,39085.0,East Asia & Pacific
+Tajikistan,3.78,66.83,6878637.0,52.6,2110.0,Europe & Central Asia
+Tanzania,5.428,59.224,44841226.0,62.3,2143.0,Sub-Saharan Africa
+Thailand,1.443,73.852,69122234.0,14.5,12822.0,East Asia & Pacific
+Timor-Leste,6.237,65.952,1124355.0,63.8,1777.0,East Asia & Pacific
+Togo,4.792,55.514,6027798.0,90.9,1246.0,Sub-Saharan Africa
+Tonga,3.914,72.209,104058.0,17.4,4945.0,East Asia & Pacific
+Trinidad and Tobago,1.802,69.55,1341465.0,23.6,29321.0,America
+Tunisia,2.044,75.14699999999998,10480934.0,17.4,10411.0,Middle East & North Africa
+Turkey,2.101,74.274,72752325.0,19.1,16674.0,Europe & Central Asia
+Turkmenistan,2.412,65.0,5041995.0,60.1,10032.0,Europe & Central Asia
+Uganda,6.155,57.319,33424683.0,79.5,1515.0,Sub-Saharan Africa
+Ukraine,1.435,68.188,45448329.0,11.8,7844.0,Europe & Central Asia
+United Arab Emirates,1.868,76.325,7511690.0,8.5,56644.0,Middle East & North Africa
+United Kingdom,1.899,80.085,62035570.0,5.2,36240.0,Europe & Central Asia
+United States,1.928,78.507,310383948.0,7.4,49373.0,America
+Uruguay,2.08,76.78699999999998,3368786.0,12.3,17095.0,America
+Uzbekistan,2.41,67.87100000000001,27444702.0,46.1,4185.0,Europe & Central Asia
+Vanuatu,3.499,70.76100000000002,239651.0,28.5,2948.0,East Asia & Pacific
+Venezuela,2.472,74.15899999999998,28979857.0,16.6,16536.0,America
+Vietnam,1.82,75.49,87848445.0,24.8,4486.0,East Asia & Pacific
+Virgin Islands (U.S.),2.4930000000000003,79.46300000000002,109056.0,11.62,,America
+West Bank and Gaza,4.216,72.64,4039192.0,23.8,4163.0,Middle East & North Africa
+Western Sahara,2.471,66.844,530500.0,50.71,,Middle East & North Africa
+"Yemen, Rep.",4.498,62.536,24052514.0,,,Middle East & North Africa
+Zambia,5.813,54.549,13088570.0,84.8,3451.0,Sub-Saharan Africa
+Zimbabwe,3.721,53.684,12571454.0,95.1,1484.0,Sub-Saharan Africa
