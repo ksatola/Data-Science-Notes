@@ -1,0 +1,86 @@
+,Name,Country,Medal,Time,Year,color
+0,Usain Bolt,JAM,GOLD,9.63,2012,goldenrod
+1,Yohan Blake,JAM,SILVER,9.75,2012,silver
+2,Justin Gatlin,USA,BRONZE,9.79,2012,saddlebrown
+3,Usain Bolt,JAM,GOLD,9.69,2008,goldenrod
+4,Richard Thompson,TRI,SILVER,9.89,2008,silver
+5,Walter Dix,USA,BRONZE,9.91,2008,saddlebrown
+6,Justin Gatlin,USA,GOLD,9.85,2004,goldenrod
+7,Francis Obikwelu,POR,SILVER,9.86,2004,silver
+8,Maurice Greene,USA,BRONZE,9.87,2004,saddlebrown
+9,Maurice Greene,USA,GOLD,9.87,2000,goldenrod
+10,Ato Boldon,TRI,SILVER,9.99,2000,silver
+11,Obadele Thompson,BAR,BRONZE,10.04,2000,saddlebrown
+12,Donovan Bailey,CAN,GOLD,9.84,1996,goldenrod
+13,Frankie Fredericks,NAM,SILVER,9.89,1996,silver
+14,Ato Boldon,TRI,BRONZE,9.9,1996,saddlebrown
+15,Linford Christie,GBR,GOLD,9.96,1992,goldenrod
+16,Frankie Fredericks,NAM,SILVER,10.02,1992,silver
+17,Dennis Mitchell,USA,BRONZE,10.04,1992,saddlebrown
+18,Carl Lewis,USA,GOLD,9.92,1988,goldenrod
+19,Linford Christie,GBR,SILVER,9.97,1988,silver
+20,Calvin Smith,USA,BRONZE,9.99,1988,saddlebrown
+21,Carl Lewis,USA,GOLD,9.99,1984,goldenrod
+22,Sam Graddy,USA,SILVER,10.19,1984,silver
+23,Ben Johnson,CAN,BRONZE,10.22,1984,saddlebrown
+24,Allan Wells,GBR,GOLD,10.25,1980,goldenrod
+25,Silvio Leonard Tartabull,CUB,SILVER,10.25,1980,silver
+26,Petar Petrov,BUL,BRONZE,10.39,1980,saddlebrown
+27,Hasely Crawford,TRI,GOLD,10.06,1976,goldenrod
+28,Donald Quarrie,JAM,SILVER,10.08,1976,silver
+29,Valery Borzov,URS,BRONZE,10.14,1976,saddlebrown
+30,Valery Borzov,URS,GOLD,10.14,1972,goldenrod
+31,Robert Taylor,USA,SILVER,10.24,1972,silver
+32,Lennox Miller,JAM,BRONZE,10.33,1972,saddlebrown
+33,Jim Hines,USA,GOLD,9.95,1968,goldenrod
+34,Lennox Miller,JAM,SILVER,10.04,1968,silver
+35,Charles Greene,USA,BRONZE,10.07,1968,saddlebrown
+36,Bob Hayes,USA,GOLD,10.0,1964,goldenrod
+37,Enrique Figuerola Camue,CUB,SILVER,10.2,1964,silver
+38,Harry Jerome,CAN,BRONZE,10.2,1964,saddlebrown
+39,Armin Hary,EUA,GOLD,10.2,1960,goldenrod
+40,David Sime,USA,SILVER,10.2,1960,silver
+41,Peter Radford,GBR,BRONZE,10.3,1960,saddlebrown
+42,Bobby Joe Morrow,USA,GOLD,10.5,1956,goldenrod
+43,W. Thane Baker,USA,SILVER,10.5,1956,silver
+44,Hector Hogan,AUS,BRONZE,10.6,1956,saddlebrown
+45,Lindy Remigino,USA,GOLD,10.4,1952,goldenrod
+46,Herbert McKenley,JAM,SILVER,10.4,1952,silver
+47,E. McDonald Bailey,GBR,BRONZE,10.4,1952,saddlebrown
+48,W. Harrison Dillard,USA,GOLD,10.3,1948,goldenrod
+49,"H. Norwood ""Barney"" Ewell",USA,SILVER,10.4,1948,silver
+50,Lloyd LaBeach,PAN,BRONZE,10.4,1948,saddlebrown
+51,Jesse Owens,USA,GOLD,10.3,1936,goldenrod
+52,Ralph Metcalfe,USA,SILVER,10.4,1936,silver
+53,Martinus Osendarp,NED,BRONZE,10.5,1936,saddlebrown
+54,"T. ""Eddie"" Tolan",USA,GOLD,10.3,1932,goldenrod
+55,Ralph Metcalfe,USA,SILVER,10.3,1932,silver
+56,Arthur Jonath,GER,BRONZE,10.4,1932,saddlebrown
+57,Percy Williams,CAN,GOLD,10.8,1928,goldenrod
+58,"John ""Jack"" London",GBR,SILVER,10.9,1928,silver
+59,Georg Lammers,GER,BRONZE,10.9,1928,saddlebrown
+60,Harold Abrahams,GBR,GOLD,10.6,1924,goldenrod
+61,Jackson Scholz,USA,SILVER,10.8,1924,silver
+62,Arthur Porritt,NZL,BRONZE,10.9,1924,saddlebrown
+63,Charles Paddock,USA,GOLD,10.8,1920,goldenrod
+64,Morris Kirksey,USA,SILVER,10.9,1920,silver
+65,Harry Edward,GBR,BRONZE,10.9,1920,saddlebrown
+66,Ralph Craig,USA,GOLD,10.8,1912,goldenrod
+67,Alvah Meyer,USA,SILVER,10.9,1912,silver
+68,Donald Lippincott,USA,BRONZE,10.9,1912,saddlebrown
+69,Reginald Walker,RSA,GOLD,10.8,1908,goldenrod
+70,James Rector,USA,SILVER,11.0,1908,silver
+71,Robert Kerr,CAN,BRONZE,11.0,1908,saddlebrown
+72,"Charles ""Archie"" Hahn",USA,GOLD,11.2,1906,goldenrod
+73,Fay Moulton,USA,SILVER,11.3,1906,silver
+74,Nigel Barker,AUS,BRONZE,11.3,1906,saddlebrown
+75,"Charles ""Archie"" Hahn",USA,GOLD,11.0,1904,goldenrod
+76,Nathaniel Cartmell,USA,SILVER,11.2,1904,silver
+77,Bill Hogenson,USA,BRONZE,11.2,1904,saddlebrown
+78,Frank Jarvis,USA,GOLD,11.0,1900,goldenrod
+79,J. Walter Tewksbury,USA,SILVER,11.1,1900,silver
+80,Stanley Rowley,AUS,BRONZE,11.2,1900,saddlebrown
+81,Thomas Burke,USA,GOLD,12.0,1896,goldenrod
+82,Fritz Hofmann,GER,SILVER,12.2,1896,silver
+83,Alojz Sokol,HUN,BRONZE,12.6,1896,saddlebrown
+84,Francis Lane,USA,BRONZE,12.6,1896,saddlebrown
