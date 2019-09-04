@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="cdcb18a6-ad5b-42ff-b7bb-afac2e745145"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="6838">
+          {"5852401e-f993-4bf3-8e09-42ca3aeeb52d":{"roots":{"references":[{"attributes":{"axis_label":"Life Expectancy (years)","formatter":{"id":"6783","type":"BasicTickFormatter"},"plot":{"id":"6755","subtype":"Figure","type":"Plot"},"ticker":{"id":"6771","type":"BasicTicker"}},"id":"6770","type":"LinearAxis"},{"attributes":{"plot":null,"text":"1970"},"id":"6754","type":"Title"},{"attributes":{"below":[{"id":"6765","type":"LinearAxis"}],"left":[{"id":"6770","type":"LinearAxis"}],"plot_height":400,"plot_width":700,"renderers":[{"id":"6765","type":"LinearAxis"},{"id":"6769","type":"Grid"},{"id":"6770","type":"LinearAxis"},{"id":"6774","type":"Grid"},{"id":"6780","type":"GlyphRenderer"}],"title":{"id":"6754","type":"Title"},"toolbar":{"id":"6775","type":"Toolbar"},"x_range":{"id":"6757","type":"DataRange1d"},"x_scale":{"id":"6761","type":"LinearScale"},"y_range":{"id":"6759","type":"DataRange1d"},"y_scale":{"id":"6763","type":"LinearScale"}},"id":"6755","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"6771","type":"BasicTicker"},{"attributes":{},"id":"6787","type":"Selection"},{"attributes":{"dimension":1,"plot":{"id":"6755","subtype":"Figure","type":"Plot"},"ticker":{"id":"6771","type":"BasicTicker"}},"id":"6774","type":"Grid"},{"attributes":{"callback":null},"id":"6757","type":"DataRange1d"},{"attributes":{},"id":"6785","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"@country"},"id":"6753","type":"HoverTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"6753","type":"HoverTool"}]},"id":"6775","type":"Toolbar"},{"attributes":{"callback":null},"id":"6759","type":"DataRange1d"},{"attributes":{},"id":"6788","type":"UnionRenderers"},{"attributes":{},"id":"6761","type":"LinearScale"},{"attributes":{},"id":"6783","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"country":["Afghanistan","Albania","Algeria","Angola","Antigua and Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Rep.","Chad","Channel Islands","Chile","China","Colombia","Comoros","Congo, Dem. Rep.","Congo, Rep.","Costa Rica","Cote d'Ivoire","Croatia","Cuba","Cyprus","Czech Rep.","Denmark","Djibouti","Dominican Rep.","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland","France","French Guiana","French Polynesia","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hong Kong, China","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Korea, Dem. Rep.","Korea, Rep.","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Lithuania","Luxembourg","Macao, China","Macedonia, FYR","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Martinique","Mauritania","Mauritius","Mayotte","Mexico","Micronesia, Fed. Sts.","Moldova","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger","Nigeria","Norway","Oman","Pakistan","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Reunion","Romania","Russia","Rwanda","Saint Lucia","Saint Vincent and the Grenadines","Samoa","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovak Republic","Slovenia","Solomon Islands","Somalia","South Africa","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Venezuela","Vietnam","Virgin Islands (U.S.)","West Bank and Gaza","Western Sahara","Yemen, Rep.","Zambia","Zimbabwe"],"x":{"__ndarray__":"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","dtype":"float64","shape":[202]},"y":{"__ndarray__":"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","dtype":"float64","shape":[202]}},"selected":{"id":"6787","type":"Selection"},"selection_policy":{"id":"6788","type":"UnionRenderers"}},"id":"6752","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"6778","type":"Circle"},{"attributes":{},"id":"6763","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"x":{"field":"x"},"y":{"field":"y"}},"id":"6779","type":"Circle"},{"attributes":{"axis_label":"Fertility (children per woman)","formatter":{"id":"6785","type":"BasicTickFormatter"},"plot":{"id":"6755","subtype":"Figure","type":"Plot"},"ticker":{"id":"6766","type":"BasicTicker"}},"id":"6765","type":"LinearAxis"},{"attributes":{"data_source":{"id":"6752","type":"ColumnDataSource"},"glyph":{"id":"6778","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"6779","type":"Circle"},"selection_glyph":null,"view":{"id":"6781","type":"CDSView"}},"id":"6780","type":"GlyphRenderer"},{"attributes":{},"id":"6766","type":"BasicTicker"},{"attributes":{"source":{"id":"6752","type":"ColumnDataSource"}},"id":"6781","type":"CDSView"},{"attributes":{"plot":{"id":"6755","subtype":"Figure","type":"Plot"},"ticker":{"id":"6766","type":"BasicTicker"}},"id":"6769","type":"Grid"}],"root_ids":["6755"]},"title":"Bokeh Application","version":"1.0.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('6838').textContent;
+                  var render_items = [{"docid":"5852401e-f993-4bf3-8e09-42ca3aeeb52d","roots":{"6755":"cdcb18a6-ad5b-42ff-b7bb-afac2e745145"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
