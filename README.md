@@ -18,7 +18,7 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 
 
 ## Python
-
+ 
 - [PyFormat](https://pyformat.info/) - Using % and .format() for great good
 
 ## Data Analysis and Cleaning
