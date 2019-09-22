@@ -3,6 +3,8 @@ Various resources on advanced analytics and beyond
 
 This material is `work-in-progress`, only parts annotated with (done) can be consider complete (but may be extended in the future).
 
+### TODO: classify use cases (regression, classification, clustering, etc.)
+
 ---
 ## Topics Alphabetically
 
