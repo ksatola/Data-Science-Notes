@@ -18,7 +18,8 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 			- The Bias-Variance Tradeoff
 			- Boosting
 				- Ada Boost
-				- Gradient Boost
+				- Gradient Boosting
+				- Stochastic Gradient Boosting
 			- Model Tuning
 
 	- Unsupervised Learning
