@@ -20,7 +20,7 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 				- Ada Boost
 				- Gradient Boosting
 				- Stochastic Gradient Boosting
-			- Model Tuning
+			- Model Tuning (Hyper Parameter Tuning)
 
 	- Unsupervised Learning
 
