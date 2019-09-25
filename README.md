@@ -11,6 +11,7 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 	- Supervised Learning
 		- Decision Trees
 			- CART
+			- Ensemble Learning
 			- The Bias-Variance Tradeoff
 			- Bagging and Random Forests
 			- Boosting
