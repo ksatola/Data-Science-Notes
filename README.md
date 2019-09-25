@@ -5,6 +5,19 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 
 ### TODO: classify use cases (regression, classification, clustering, etc.)
 
+## Topics
+
+- Machine Learning
+	- Supervised Learning
+		- Decision Trees
+			- CART
+			- The Bias-Variance Tradeoff
+			- Bagging and Random Forests
+			- Boosting
+			- Model Tuning
+
+	- Unsupervised Learning
+
 ---
 ## Topics Alphabetically
 
