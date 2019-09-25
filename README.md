@@ -12,9 +12,13 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 		- Decision Trees
 			- CART
 			- Ensemble Learning
+				- Voting Classifier
+				- Bagging
+				- Random Forests
 			- The Bias-Variance Tradeoff
-			- Bagging and Random Forests
 			- Boosting
+				- Ada Boost
+				- Gradient Boost
 			- Model Tuning
 
 	- Unsupervised Learning
