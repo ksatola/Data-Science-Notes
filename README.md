@@ -21,6 +21,10 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 				- Gradient Boosting
 				- Stochastic Gradient Boosting
 			- Model Tuning (Hyper Parameter Tuning)
+	- Deep Learning
+		- Forward propagation
+		- Gradient Descent
+		- Backpropagation
 
 	- Unsupervised Learning
 
