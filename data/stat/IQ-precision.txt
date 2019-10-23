@@ -1,0 +1,12 @@
+REPEAT 500000
+NORMAL 5 100 15 IQ5
+MEAN IQ5 samplemeans5
+SCORE samplemeans5 SampleSize5
+NORMAL 20 100 15 IQ20
+MEAN IQ20 samplemeans20
+SCORE samplemeans20 SampleSize20
+NORMAL 60 100 15 IQ60
+MEAN IQ60 samplemeans60
+SCORE samplemeans60 SampleSize60
+END
+Histogram percent binsize 0.1 SampleSize5 SampleSize20 SampleSize60
