@@ -126,5 +126,31 @@ print(most_early)
 
 # 3. In which month do flights tend to have the longest delays? ----
 
+flights %>%
+  group_by(month) %>%
+  summarise(delay = mean(arr_delay, na.rm = TRUE)) %>%
+  filter(delay == max(delay)) %>%
+  print()
 
+# in month 7 (July) there are longest delays with more than 16 minutes on average
 
+delay_by_month <- flights %>%
+  group_by(month) %>%
+  summarize(delay = mean(arr_delay, na.rm = TRUE)) %>%
+  select(delay) %>%
+  mutate(month = month.name) %>% # month.name is a variable built in R
+  print()
+
+# Create a plot
+
+ggplot(data = delay_by_month) +
+  geom_point(
+    mapping = aes(x = delay, y = month),
+    color = "blue",
+    alpha = .4,
+    size = 3
+  ) +
+  geom_vline(xintercept = 0, size = .25) +
+  xlim(c(-20, 20)) +
+  scale_y_discrete(limits = rev(month.name)) +
+  labs(title = "Average Delay by Month", y = "", x = "Delay (minutes)")
