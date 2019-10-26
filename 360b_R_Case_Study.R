@@ -121,5 +121,10 @@ most_early <- flights %>%
 
 print(most_early)
 
+# LEX-Blue Grass airport in Lexington, Kentucky is the airport with the earliest
+# average arrival time with 22 minutes early
+
 # 3. In which month do flights tend to have the longest delays? ----
+
+
 
