@@ -7,6 +7,8 @@ output: html_document
 # errors and messages will not be printed because of the `include = FALSE` option
 source("360eee_R_Case_Study.R")
 
+#install.packages("XQuartz")
+
 # Also load additional libraries that may be needed for output
 library("knitr")
 ```
