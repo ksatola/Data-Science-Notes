@@ -30,7 +30,7 @@ notices <- eviction_notices %>%
 library("ggmap")
 library("ggplot2")
 
-# Create the background of map tiles
+# Create the background of map tiles ----
 base_plot <- qmplot( 
   data = notices, # name of the data frame
   x = long, # data feature for longitude
@@ -45,13 +45,27 @@ base_plot <- qmplot(
 # This allows you to add different layers on top of a base plot, 
 # or to render the plot at chosen locations throughout a report
 
-# Add the locations of evictions to the map
+# Add the locations of evictions to the map ----
 base_plot +
   geom_point(mapping = aes(x = long, y = lat), color = "red", alpha = .3) +
   labs(title = "Evictions in San Francisco, 2017") +
   theme(plot.margin = margin(.3, 0, 0, 0, "cm")) # adjust spacing around the map
 
-
+# Draw a heatmap of eviction rates, using ggplot2 to compute the shape/col ----
+base_plot + 
+  geom_polygon(
+    stat = "density2d", # calculate the two-dimensional density of points 
+    mapping = aes(fill = stat(level)), # use the computed density to set the fill 
+    alpha = .3, # Set the alpha (transparency)
+  ) +
+  scale_fill_gradient2(
+    "# of Evictions", 
+    low = "white", 
+    mid = "yellow", 
+    high = "red" 
+  ) +
+  labs(title="Number of Evictions in San Francisco, 2017") + 
+  theme(plot.margin = margin(.3, 0, 0, 0, "cm"))
 
 
 
