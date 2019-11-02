@@ -1,0 +1,121 @@
+---
+title: "360ee_R_Markdown_Example"
+author: "Krzysztof"
+date: "11/2/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r options_example, echo = FALSE, message = TRUE)
+
+# A code chunk named "options_example", with argument `echo` assigned FALSE 
+# and argument `message` assigned TRUE
+
+# echo = display R code
+# message = display any messages from R code
+# include = FALSE, if no resoults of the code shoud be included in the code
+#           usually used in the beginning of the report used to initial processing work
+#           such as library or packages installation
+# eval = FALSE, to show R code but do not execute it
+
+# Would execute `R` code in here
+```
+
+```r
+# code without evaluation
+2+3
+```
+
+```{r}
+# code evaluated
+2+3
+```
+
+To calculate 3 + 4 inside some text, you can use `r 3 + 4` right in the middle.
+
+```{r raw_print_example, echo = FALSE} 
+print("Hello world")
+```
+
+```{r}
+msg <- "message"
+```
+
+This is `r msg` or `msg`.
+
+- aa
+- bb
+- cc
+
+```{r asis_example, results = 'asis', echo = FALSE} 
+cat("**Hello world**")
+```
+
+```{r list_example, echo = FALSE} 
+markdown_list <- "
+- Lions
+- Tigers
+- Bears
+- Oh mys "
+```
+`r markdown_list`
+
+
+```{r pasted_list_example, echo = FALSE}
+# Create a vector of animals
+animals <- c("Lions", "Tigers", "Bears", "Oh mys")
+# Paste `-` in front of each animal, then paste the items together with newlines between
+markdown_list <- paste("-", animals, collapse = "\n")
+```
+
+`r markdown_list`
+
+The package contains numerous helper functions, which render user specified inputs in Pandoc's markdown format or apply some extra formatting on it. http://rapporter.github.io/pander/
+
+```{r kable_example, echo = FALSE}
+library("knitr") # make sure you load the package (once per document)
+# Make a data frame
+letters <- c("a", "b", "c", "d")
+numbers <- 1:4
+df <- data.frame(letters = letters, numbers = numbers)
+# "Return" the table to render it
+kable(df)
+```
+
+Tables generated with the kable() function can be further customized using additional packages, such as kableExtra. a This package allows you to add more layers and styling to a table using a format similar to how you add labels and themes with ggplot2. http://haozhu233.github.io/kableExtra/
+
+
+```{r plot_example, echo = FALSE}
+library("ggplot2") # make sure you load the package (once per document)
+# Plot of college education vs. poverty rates in the Midwest
+ggplot(data = midwest) +
+  geom_point(mapping = aes(x = percollege, y = percadultpoverty, color = state)) + scale_color_brewer(palette = "Set3")
+```
+
+
+
+
+
