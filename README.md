@@ -5,6 +5,39 @@ This material is `work-in-progress`, only parts annotated with (done) can be con
 
 ### TODO: classify use cases (regression, classification, clustering, etc.)
 
+### To review:
+https://www.datasciencecentral.com/profiles/blogs/k-nearest-neighbor-algorithm-using-python
+https://www.datasciencecentral.com/profiles/blogs/eight-levels-of-analytics-for-competitive-advantage
+https://www.datasciencecentral.com/profiles/blogs/difference-between-correlation-and-regression-in-statistics
+https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/
+https://www.datasciencecentral.com/profiles/blogs/choosing-features-for-random-forests-algorithm
+https://www.datasciencecentral.com/profiles/blogs/linear-regression-geometry
+https://www.datasciencecentral.com/profiles/blogs/big-data-sets-available-for-free
+https://towardsdatascience.com/markov-chain-analysis-and-simulation-using-python-4507cee0b06e
+https://machinelearningmastery.com/a-gentle-introduction-to-normality-tests-in-python/
+https://www.analyticsvidhya.com/blog/2019/08/5-applications-singular-value-decomposition-svd-data-science/
+https://www.analyticsvidhya.com/blog/2019/08/detailed-guide-7-loss-functions-machine-learning-python-code
+https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c
+https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0
+https://towardsdatascience.com/how-to-out-compete-on-a-data-science-competition-insights-techniques-and-tactics-95a0545041d5
+https://docs.featuretools.com/en/stable/#
+https://towardsdatascience.com/data-science-interview-guide-4ee9f5dc778
+https://nbviewer.jupyter.org/
+https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+https://github.com/chrisalbon/code_py
+https://github.com/abhat222
+https://github.com/abhat222/Data-Science-Tutorials
+https://github.com/practicalAI/practicalAI
+https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python
+https://www.datasciencecentral.com/profiles/blogs/model-evaluation-techniques-in-one-picture
+https://python-graph-gallery.com/bubble-plot/
+https://machinelearningmastery.com/category/algorithms-from-scratch/
+https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/
+https://github.com/propublica/compas-analysis
+https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/
+https://machinelearningmastery.com/what-is-information-entropy/
+
+
 ## Topics
 
 > block quote
