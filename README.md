@@ -104,3 +104,5 @@ https://machinelearningmastery.com/what-is-information-entropy/
 - [40+ Python Statistics For Data Science Resources
 ](https://www.datacamp.com/community/tutorials/python-statistics-data-science) - A list of Python resources for the eight statistics topics that you need to know to excel in data science
 - [Think Stats - Probability and Statistics for Programmers (free ebook)](http://greenteapress.com/thinkstats/)
+
+- [DASCA - Data Scientist Certifications](https://www.dasca.org/data-science-certifications/big-data-scientist)
