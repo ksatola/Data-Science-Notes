@@ -1,0 +1,10 @@
+
+notes
+
+https://tinyurl.com/s9jbbhf
+
+datasets
+
+https://www.kaggle.com/tylerx/flights-and-airports-data
+
+https://www.kaggle.com/fernandol/countries-of-the-world
