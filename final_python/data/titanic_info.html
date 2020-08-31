@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0068)http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Titanic Data</title>
+  </head>
+
+  <body>
+    <h1>Titanic Data</h1>
+
+<p>
+   The <tt>titanic</tt> and <tt>titanic2</tt> data frames describe
+        the survival status of individual passengers on the
+        Titanic. The <tt>titanic</tt> data
+        frame does not contain information from the crew, but it
+        does contain actual ages of half of the passengers.
+		The principal source for data about Titanic passengers is the
+		<a href="http://www.encyclopedia-titanica.org/"><i>Encyclopedia
+        Titanica</i></a>.  The datasets used here were begun
+		by a variety of researchers.  One of the original sources is
+		Eaton &amp; Haas (1994) <i>Titanic:
+        Triumph and Tragedy</i>, Patrick Stephens Ltd, which includes
+        a passenger list created by many researchers and edited by
+        Michael A. Findlay.
+		</p><p>
+        The variables on our extracted dataset are pclass, survived,
+        name, age, embarked, 
+        home.dest, room, ticket, boat, and sex. pclass refers to
+        passenger class (1st, 2nd, 3rd), and is a proxy for socio-economic
+        class. Age is in years, and some infants had fractional
+        values. The <tt>titanic2</tt> data frame has no missing data and
+        includes records for the crew, but age is dichotomized at
+        adult vs. child.  These data were obtained from 
+		<a href="http://www2.ncsu.edu/ncsu/pams/stat/info/jse/v3n3/datasets.dawson.html">Robert
+        Dawson</a>, Saint Mary's University, 
+		<a href="mailto:rdawson@husky1.stmarys.ca">E-mail</a>. The
+        variables are pclass, age, sex, survived. These data
+        frames are useful for demonstrating many of the functions
+        in <tt>Hmisc</tt> as well as demonstrating binary logistic
+        regression analysis using the Design library. For more
+        details and references see Simonoff, Jeffrey S (1997):
+        The "unusual episode" and a second statistics
+        course. <i>J Statistics Education</i>, 
+		<a href="http://www2.ncsu.edu/ncsu/pams/stat/info/jse/v5n1">Vol.
+        5 No. 1</a>.<br><br>
+		Thomas Cason of UVa has greatly updated and improved the
+        <tt>titanic</tt> data frame using the <i>Encyclopedia
+        Titanica</i> and created a new dataset called
+	  <tt>titanic3</tt>.<br>
+       These datasets
+        reflects the state of data available as of 2 August 1999.
+        Some duplicate passengers have 
+        been dropped, many errors corrected, many missing ages filled
+        in, and new variables created.  Click <a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3info.txt">here</a> for information about how this
+        datatset was constructed.
+		<br><br>
+        An interesting result may be obtained using functions
+        from the <tt>Hmisc</tt> library
+		</p><pre>  attach(titanic3)
+  plsmo(age, survived, group=sex, datadensity=T) # or group=pclass
+  plot(naclus(titanic3)) # study patterns of missing values
+  summary(survived ~ age + sex + pclass + sibsp + parch, data=titanic3)
+		</pre>
+
+    <hr>
+    <address><a href="mailto:fharrell@virginia.edu">Frank E Harrell Jr</a></address>
+<!-- Created: Mon Dec 23 15:25:44 EST 2002 -->
+<!-- hhmts start -->
+Last modified: Fri Dec 27 16:24:38 EST 2002
+<!-- hhmts end -->
+  
+
+</body></html>
