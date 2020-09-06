@@ -1,0 +1,7 @@
+{
+  "titanic3": {
+    "url": "data/titanic3.xls",
+    "type": "xls",
+    "origin": "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.xls"
+  }
+}
