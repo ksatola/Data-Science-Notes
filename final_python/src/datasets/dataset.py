@@ -9,7 +9,7 @@ def get_dataset(name: str) -> pd.DataFrame:
     :return: Pandas DataFrame with the datasets data or null if not found.
     """
 
-    datasets = read_json('config/datasets.json')
+    datasets = read_json('../config/datasets.json')
     dataset = datasets[name]
 
     if dataset:
