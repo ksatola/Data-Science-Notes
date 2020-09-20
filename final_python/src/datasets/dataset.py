@@ -6,6 +6,9 @@ from logger import logger
 CONFIG_PATH = '../config/datasets.json'
 CONFIG_PATH_BKP = '../config/datasets_bkp.json'
 
+# https://machinelearningmastery.com/standard-machine-learning-datasets/
+# https://realpython.com/python-json/
+
 
 def get_dataset(name: str) -> pd.DataFrame:
     """
@@ -21,7 +24,7 @@ def get_dataset(name: str) -> pd.DataFrame:
         if dataset['type'] == 'xls':
             return pd.read_excel(dataset['url'])
         elif dataset['type'] == 'csv':
-            return pd.read_csv(dataset['url'])
+            return pd.read_csv(dataset['url'], header=None)
     else:
         return None
 
@@ -30,6 +33,7 @@ def add_dataset(data: pd.DataFrame,
                 name: str,
                 url: str = "",
                 type: str = "csv",
+                header: str = "infer",
                 origin: str = "") -> str:
     """
     Add a dataset by name.
@@ -37,6 +41,7 @@ def add_dataset(data: pd.DataFrame,
     :param name: Unique dataset name
     :param url: Full path to save the dataset to (without file name)
     :param type: Type of the dataset (currently csv)
+    :param header: "infer" or None
     :param origin: Url to source of the data
     :return: Dataset name added to JSON or None if error
     """
@@ -60,7 +65,7 @@ def add_dataset(data: pd.DataFrame,
 
         # Save JSON with dataset metadata
         json_final = json_orig.copy()
-        new_item = {"url": str(path), "type": type, "origin": origin}
+        new_item = {"url": str(path), "type": type, "header": header, "origin": origin}
         json_final[name] = new_item
         write_json(json_final, CONFIG_PATH)
 
