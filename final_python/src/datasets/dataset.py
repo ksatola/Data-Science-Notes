@@ -54,7 +54,7 @@ def add_dataset(data: pd.DataFrame,
         Path(url).mkdir(parents=True, exist_ok=True)
         path = Path(url).joinpath(f"{name}.{type}")
         if not path.exists():
-            data.to_csv(path)
+            data.to_csv(path, index=False)
         else:
             logger.error(f"Dataset file already exists: {path}")
 
