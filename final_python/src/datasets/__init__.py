@@ -1,3 +1,4 @@
 from .dataset import (
-    get_dataset
+    get_dataset,
+    add_dataset
 )

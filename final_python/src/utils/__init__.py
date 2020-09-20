@@ -1,3 +1,4 @@
 from .file_io import (
-    read_json
+    read_json,
+    write_json
 )
