@@ -6,6 +6,7 @@ from logger import logger
 CONFIG_PATH = '../config/datasets.json'
 CONFIG_PATH_BKP = '../config/datasets_bkp.json'
 
+
 # https://machinelearningmastery.com/standard-machine-learning-datasets/
 # https://realpython.com/python-json/
 
@@ -72,3 +73,16 @@ def add_dataset(data: pd.DataFrame,
     else:
         logger.info("Dataset name already exists")
         return None
+
+
+def add_prefix_to_list_items(prefix: str, items: list) -> list:
+    """
+    Add prefix to existing list items.
+    :param prefix: a string of characters to be added at the beginning of each items item
+    :param items: list with items to be renamed
+    :return: list with renamed items
+    """
+    new_items = []
+    for item in items:
+        new_items.append(f"{prefix}{str(item)}")
+    return new_items
