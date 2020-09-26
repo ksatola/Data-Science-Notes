@@ -25,7 +25,7 @@ def get_dataset(name: str) -> pd.DataFrame:
         if dataset['type'] == 'xls':
             return pd.read_excel(dataset['url'])
         elif dataset['type'] == 'csv':
-            return pd.read_csv(dataset['url'], header=None)
+            return pd.read_csv(dataset['url'], header=dataset['header'])
     else:
         return None
 
