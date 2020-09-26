@@ -3,5 +3,6 @@
 .RData
 .Rhistory
 satellite
+.idea
 
 venv/*
