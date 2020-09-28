@@ -17,7 +17,7 @@ formatter = logging.Formatter(
 )
 logger.setLevel(logging.INFO)
 
-logFilePath = "lyp.log"
+logFilePath = "usage.log"
 file_handler = logging.handlers.RotatingFileHandler(
     filename=logFilePath, maxBytes=1000000, backupCount=3
 )
