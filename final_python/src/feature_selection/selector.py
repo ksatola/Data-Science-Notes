@@ -11,7 +11,8 @@ def select_features(X_train, y_train, X_test, k='all', score_func=f_regression):
     :param X_test: test dataset
     :param k: 'all' for all features or number of features to select
     :param score_func: function defining a strategy
-    :return: transformed train and test data and SelectBest object
+    :return: transformed train and test datasets and SelectBest object. Transformed train and test datasets return
+    k selected features whereas SelectBest object returns metadat about all features
     """
     # Configure to select all features
     fs = SelectKBest(score_func=score_func, k=k)

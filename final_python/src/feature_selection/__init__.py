@@ -1,1 +1,1 @@
-from .numerical import select_features
+from .selector import select_features

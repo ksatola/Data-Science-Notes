@@ -130,7 +130,6 @@ age,menopause,tumor-size,inv-nodes,node-caps,deg-malig,breast,breast-quad,irradi
 40-49,premeno,15-19,0-2,no,2,left,left_up,no,recurrence-events
 60-69,ge40,15-19,0-2,no,2,right,left_low,no,no-recurrence-events
 40-49,premeno,30-34,0-2,no,2,left,right_low,no,no-recurrence-events
-20-29,premeno,35-39,0-2,no,2,right,right_up,no,no-recurrence-events
 40-49,premeno,30-34,0-2,no,3,right,right_up,no,recurrence-events
 40-49,premeno,25-29,0-2,no,2,right,left_low,no,recurrence-events
 30-39,premeno,30-34,0-2,no,3,left,left_low,no,no-recurrence-events
