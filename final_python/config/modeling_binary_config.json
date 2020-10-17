@@ -1,0 +1,41 @@
+{
+  "scaler_methods": [
+    "StandardScaler",
+    "RobustScaler",
+    "Normalizer"
+  ],
+  "dimensionality_reduction_methods": [
+    "PCA",
+    "TruncatedSVD",
+    "FastICA"
+  ],
+  "oversampling_methods": [
+    "SMOTE",
+    "BorderlineSMOTE",
+    "RandomOverSampler",
+    "ADASYN",
+    "SVMSMOTE"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+
+
+
+
+  "raw_data_path": "/data/raw_data",
+  "av_path_file": "/data/analytical_view/pmi6/industrialcloud/",
+  "av_file": "--PMI6--_dataset_2020-10-01-10-19-37.csv",
+  "pmi6_test_file": "--PMI6--_test_dataset.csv",
+  "pmi6_data_to_be_classified": "--PMI6--_dataset_to_be_classified.csv",
+  "analytical_models_path": "COMMON_PATH_FOR_MODEL_AND TRANSFORMATION_PKL",
+  "train_test_data_scaler": "train_test_data_scaling_component.pkl",
+  "train_test_data_dimensionality_reducer": "train_test_data_dimensionality_reduction_component.pkl",
+  "train_data_undersampler": "train_data_undersampling_component.pkl",
+  "train_data_oversampler": "train_data_oversampling_component.pkl",
+  "target_column_continuous": "batch_avg_value",
+  "target_column_binary_class": "target_binary_class",
+  "target_column_multi_class": "target_multi_class",
+
+  "dim_reduction_components": 3
+
+}
