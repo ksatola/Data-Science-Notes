@@ -11,12 +11,6 @@
     "header": "infer",
     "origin": "Dataset created from titanic3"
   },
-  "sonar": {
-    "url": "../data/sonar.csv",
-    "type": "csv",
-    "header": null,
-    "origin": "The Sonar Dataset involves the prediction of whether or not an object is a mine or a rock given the strength of sonar returns at different angles: https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar,+Mines+vs.+Rocks)"
-  },
   "boston_housing": {
     "url": "../data/boston_housing.csv",
     "type": "csv",
@@ -34,5 +28,11 @@
     "type": "csv",
     "header": "infer",
     "origin": "This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases"
+  },
+  "sonar": {
+    "url": "../data/sonar.csv",
+    "type": "csv",
+    "header": "infer",
+    "origin": "The Sonar Dataset involves the prediction of whether or not an object is a mine or a rock given the strength of sonar returns at different angles: https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+(Sonar,+Mines+vs.+Rocks)"
   }
 }
