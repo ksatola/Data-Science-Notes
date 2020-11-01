@@ -4,5 +4,6 @@
 .Rhistory
 satellite
 .idea
+__pycache__/
 
 venv/*
