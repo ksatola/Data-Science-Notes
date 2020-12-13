@@ -7,7 +7,7 @@ import pandas as pd
 
 from pickle import dump, load
 
-from imblearn.over_sampling import SMOTE, BorderlineSMOTE, RandomOverSampler, ADASYN, SVMSMOTE
+#from imblearn.over_sampling import SMOTE, BorderlineSMOTE, RandomOverSampler, ADASYN, SVMSMOTE
 from imblearn.pipeline import make_pipeline
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import BaggingClassifier
