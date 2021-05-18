@@ -106,7 +106,7 @@ nbformat==5.0.7
 nest-asyncio==1.4.0
 netifaces==0.10.4
 networkx==2.5
-notebook==6.1.4
+notebook==6.4.0
 numba==0.51.2
 numpy==1.19.2
 oauthlib==3.1.0
