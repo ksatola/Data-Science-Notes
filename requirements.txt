@@ -159,7 +159,7 @@ python-debian===0.1.36ubuntu1
 python-editor==1.0.4
 pytz==2020.1
 PyWavelets==1.1.1
-PyYAML==5.3.1
+PyYAML==6.0
 pyzmq==19.0.2
 qtconsole==4.7.7
 QtPy==1.9.0
