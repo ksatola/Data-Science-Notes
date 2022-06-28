@@ -9,7 +9,7 @@ async-timeout==3.0.1
 attrs==19.3.0
 Automat==0.8.0
 backcall==0.2.0
-bleach==3.2.1
+bleach==5.0.1
 blinker==1.4
 cachetools==4.1.1
 catboost==0.24.2
