@@ -130,7 +130,7 @@ pluggy==0.13.1
 prettytable==0.7.2
 prometheus-client==0.8.0
 prompt-toolkit==3.0.7
-protobuf==3.13.0
+protobuf==4.21.7
 psutil==5.7.2
 ptyprocess==0.6.0
 py==1.9.0
