@@ -5,7 +5,7 @@ cycler==0.10.0
 dtreeviz==1.1.1
 graphviz==0.14.1
 iniconfig==1.0.1
-joblib==0.16.0
+joblib==1.2.0
 kiwisolver==1.2.0
 matplotlib==3.3.2
 more-itertools==8.5.0
