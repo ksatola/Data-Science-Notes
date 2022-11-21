@@ -196,7 +196,7 @@ tangled-up-in-unicode==0.0.6
 tblib==1.7.0
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
-tensorflow==2.3.1
+tensorflow==2.11.0
 tensorflow-estimator==2.3.0
 termcolor==1.1.0
 terminado==0.9.1
